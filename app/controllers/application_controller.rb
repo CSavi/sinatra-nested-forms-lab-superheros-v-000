@@ -11,7 +11,8 @@ class App < Sinatra::Base
     post '/team' do
       @super_hero = SuperHero.new(params[:super_hero])
 
-      
+      @team = Team.
+
     erb :/team
     end
   end
