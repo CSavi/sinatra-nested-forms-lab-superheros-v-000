@@ -8,5 +8,4 @@ class Team
     @motto = params[:motto]
     @@all << self
   end
-
 end
