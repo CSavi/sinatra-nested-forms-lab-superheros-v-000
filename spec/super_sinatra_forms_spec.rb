@@ -39,7 +39,7 @@ describe App do
       expect(page).to have_text("Hero Power: Ruby")
       expect(page).to have_text("Hero Biography: I love Ruby!")
       expect(page).to have_text("Hero Name: Arel")
-      binding.pry
+      #binding.pry
       expect(page).to have_text("Hero Power: JavaScript")
       expect(page).to have_text("Hero Biography: I love JavaScript!")
       expect(page).to have_text("Hero Name: Katie")
