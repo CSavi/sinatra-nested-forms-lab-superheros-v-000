@@ -14,10 +14,10 @@ class App < Sinatra::Base
 
       params[:team][:heroes].each do |hero_data|
         binding.pry
-        SuperHero.new(hero_data)
+        Hero.new(hero_data)
       end
 
-      @heroes = SuperHero.all
+      @heroes = Hero.all
 
       erb :/super_hero
     end
