@@ -9,4 +9,8 @@ class SuperHero
     @biography = params[:biography]
     @@all << self
   end
+
+  def self.all
+    @@all
+  end
 end
