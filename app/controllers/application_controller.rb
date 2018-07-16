@@ -8,9 +8,8 @@ class App < Sinatra::Base
       erb :team
     end
 
-    post '/team' do
+    # post '/team' do
 
-    erb :/team
-    end
+    # erb :/team
+    # end
   end
-end
